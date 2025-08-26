@@ -1,0 +1,48 @@
+.btn.form-bttn,
+.btn.form-bttn:hover {
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.btn.form-bttn.approve-btn,
+.btn.form-bttn.approve-btn:active {
+    background-color: rgb(25, 190, 25);
+    border: 1px solid rgb(25, 190, 25);
+    color: white;
+}
+
+.btn.form-bttn.cancel-btn,
+.btn.form-bttn.cancel-btn:active {
+    background-color: rgb(138, 57, 57);
+    border: 1px solid rgb(138, 57, 57);
+    color: white;
+}
+
+.decline-reason-textarea,
+.decline-reason-textarea:focus {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-wrapper {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border: none !important;
+    border-radius: 12px !important;
+}
